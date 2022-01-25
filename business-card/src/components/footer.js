@@ -4,10 +4,10 @@ function Footer(){
     return(
         <div>
             <footer>
-                <button>Twitter</button>
-                <button>Facebook</button>
-                <button>Instagram</button>
-                <button>Email</button>
+                <a href="#" className="fa fa-twitter"></a>
+                <a href="#" className="fa fa-facebook"></a>
+                <a href="#" className="fa fa-instagram"></a>
+                <a href="#" className="fa fa-linkedin"></a>
             </footer>
         </div>
     )

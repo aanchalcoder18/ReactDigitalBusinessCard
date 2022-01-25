@@ -10,10 +10,10 @@ function Main(){
             <p className="job-title">Full Stack Engineer</p>
             <small>www.aanchal.xyz</small>
             <br />
-            <div className="main-content">
+            <div className="main-content" id="main">
                 <div className="btn-top">
                     <button 
-                        type="button" className="btn-top-g" onClick={(e) => {
+                        type="button" className="btn-top-g" id="git" onClick={(e) => {
                             e.preventDefault();
                             window.location.href='https://github.com/aanchalcoder18';
                         }}> 
@@ -21,7 +21,7 @@ function Main(){
                     </button>
                 
                     <button
-                        type="button" className="btn-top-g" onClick={(e) => {
+                        type="button" className="btn-top-g" id="linkedin" onClick={(e) => {
                             e.preventDefault();
                             window.location.href='https://www.linkedin.com/in/aanchalsaxena/';
                         }}> 
