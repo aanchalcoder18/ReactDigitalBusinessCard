@@ -1,11 +1,11 @@
 import React, { Component }from "react";
-import pikaPika from "../images/pika.jpeg"
+import aanchal from "../images/aanchal.jpeg"
 
 
 function Main(){
     return(
         <main>
-            <img src={pikaPika} className="pfp-icon"/>
+            <img src={aanchal}className="pfp-icon"/>
             <h1 className="name-header">Aanchal Saxena</h1>
             <p className="job-title">Full Stack Engineer</p>
             <small>www.aanchal.xyz</small>
